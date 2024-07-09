@@ -19,10 +19,35 @@ TF cloud new UI
 **objectives**
 
  **1. understanding IaC Concepts**
+      Automate, creating, updating and destroying infrastructure in cloud/local
+         blueprint of the infrastrucutre.
+         share,version or inventory > the cloud infrastructure.
+
+         Explicit > zero misconfiguration
+                  > scripting language - xml,json,yaml
+                        > ARM, Azure blueprints
+                        > AWS cloud formation
+                        > Google cloud deployment Manager
+                        > TF 
+        Imperative > AWS cloud Dev kit(CDK)
+                   >  Pulumi - (AWS,Azure,GCP and K8s)
+
+      "TF is imperative -like functionality"   
  
      1.1 explain what IaC
+          Infrastructure lifecycle > plan,design
+                                      build,test,deliver,maintain and retire insfrastructure.
+
+         
      1.2 describe the advantage of IaC
-     
+         idempotent - same state when run multiple times.
+           
+
+         Manageability
+         Sensibility
+          
+
+      
  **2. understand the pupose of TF**
  
      2.1 explain Multi-cloud and provider-agnostic benefits
